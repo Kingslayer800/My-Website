@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog 2 - Ethics in AI</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #6366f1;
+      --accent: #ec4899;
+      --dark: #1f2937;
+      --darker: #111827;
+      --light: #f3f4f6;
+      --gradient: linear-gradient(90deg, var(--primary), var(--accent));
+    }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: var(--darker);
+      color: var(--light);
+      margin: 0;
+      line-height: 1.6;
+    }
+    header {
+      background: rgba(17,24,39,0.95);
+      padding: 15px 0;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    nav {
+      width: 90%;
+      max-width: 1100px;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .logo {
+      font-size: 2rem;
+      font-weight: 700;
+      background: var(--gradient);
+      background-clip: text;
+      -webkit-background-clip: text;
+      color: transparent;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .nav-links {
+      display: flex;
+      list-style: none;
+      gap: 25px;
+    }
+    .nav-links a {
+      text-decoration: none;
+      color: var(--light);
+      font-weight: 500;
+    }
+    .nav-links a:hover {
+      color: var(--primary);
+    }
+    section {
+      width: 90%;
+      max-width: 1000px;
+      margin: 50px auto;
+      text-align: center;
+    }
+    h1 {
+      font-size: 2rem;
+      background: var(--gradient);
+      background-clip: text;
+      -webkit-background-clip: text;
+      color: transparent;
+      margin-bottom: 20px;
+    }
+    p {
+      color: #d1d5db;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: rgba(17,24,39,0.95);
+      border-top: 1px solid rgba(255,255,255,0.05);
+    }
+    .social-icons {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      margin-top: 15px;
+    }
+    .social-icons a {
+      color: white;
+      font-size: 1.3rem;
+      transition: color 0.3s;
+    }
+    .social-icons a:hover {
+      color: var(--primary);
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <nav>
+      <a href="index.html" class="logo"><i class="fas fa-brain"></i> AI Hub</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="index.html#features">Features</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Blog Content -->
+  <section>
+    <a><img src="Images\ai-human-interaction-modern-workplace.jpg" width="300" height="200"></a>
+    <div>
+    <h1>Ethical Considerations in AI Development</h1>
+    </div>
+    <p>
+      Artificial Intelligence is shaping our future, but with great power comes great responsibility. 
+      Ethical AI means building systems that are fair, transparent, and accountable.
+    </p>
+    <p>
+      Developers must consider issues such as bias in data, privacy of users, and the impact of automation 
+      on jobs and society. Addressing these challenges ensures AI benefits everyone, not just a few.
+    </p>
+    <p>
+      By keeping ethics at the core of AI development, we can create technology that improves lives while 
+      respecting human values.
+    </p>
+  </section>
+
+  <!-- Footer -->
+  <footer id="contact">
+    <p>Connect With Us</p>
+<!-- Social Media -->
+  <section class="social-media">
+      <div class="container">
+          <h2 class="section-title">Connect With Us</h2>
+          <div class="social-icons">
+              <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+              <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+              <a href="#" class="social-icon"><i class="fab fa-telegram-plane"></i></a>
+          </div>
+      </div>
+  </section>
+    <p>&copy; 2023 AI Learning Hub</p>
+  </footer>
+</body>
+</html>
